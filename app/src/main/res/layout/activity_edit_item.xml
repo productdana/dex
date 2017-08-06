@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.danatran.simpletodo.EditItemActivity">
+
+    <EditText
+        android:id="@+id/etEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSaveEditItem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <Button
+        android:id="@+id/btnSaveEditItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="198dp"
+        android:text="@string/button_save_edit_item"
+        android:onClick="onSaveEditItem"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="204dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvEditItemLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/label_edit_text"
+        android:textSize="24sp"
+        android:layout_above="@+id/etEditText"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
