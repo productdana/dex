@@ -34,9 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+[Link to Video Walkthrough](https://www.dropbox.com/s/w31d5xp6t26x7qk/dex_v1.mp4?)dl=0
 
 ## Project Analysis
 
@@ -48,13 +46,13 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** An ArrayAdapter is used to connect and display items from an ArrayList in a ListView. With an ArrayAdapter and ListView, we can benefit from view recycling, which minimizes memory usage and makes the app run faster. This is more noticeable as the list of items gets larger. Memory is a resource that devices are constrained by, so it is important to minimize its usage. With view recycling, instead of creating a view for each item in an ArrayList, we create only a few more views than the number of views visible on a screen at one time. Scrapped views are then reused by interchanging the data to display. `convertView` in the `getView` method of the `ArrayAdapter` is the reusable view (or row list item in this case) that is rendered after its previous data is swapped out with the new data to display from ArrayList.
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
-Video and slides were referencing different versions of Android Studio (and slightly different coding styles), and certain sections looked different than Android Studio today, but those resources were still useful references.
+Video and slides were referencing different versions of Android Studio (and slightly different coding styles), and certain sections looked different than Android Studio today, but those resources were still useful references. I'm not an expert in Java so writing in Java was a little challenging, but there are plenty of resources online to reference and find the necessary information to accomplish my goals.
 
 ## License
 
