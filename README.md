@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Link to Video Walkthrough](https://www.dropbox.com/s/w31d5xp6t26x7qk/dex_v1.mp4?)dl=0
+[Link to Video Walkthrough](https://www.dropbox.com/s/w31d5xp6t26x7qk/dex_v1.mp4?dl=0)
 
 ## Project Analysis
 
